@@ -79,7 +79,7 @@ abstract class Kohana_Controller {
 				array(':uri' => $this->request->uri())
 			)->request($this->request);
 		}
-
+                 //TO DO: Model binder should be done
 		// Execute the action itself
 		$this->{$action}();
 
